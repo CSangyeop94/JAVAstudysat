@@ -19,7 +19,7 @@ public class GernericEx {
 		
 		for(int i=0; i<10; i++) {
 			Student std = new Student(); 
-			std.setName("이종석_" + i);
+			std.setName("추상엽_" + i);
 			std.setGrade(i + "학년");
 			std.setAge(45 + i);
 			school.add(std);
@@ -27,7 +27,7 @@ public class GernericEx {
 			//-- TEST 
 			//List<Student> school :: error
 //			Map m = new HashMap();
-//			m.put("name", "이종석_" + i);
+//			m.put("name", "추상엽_" + i);
 //			school.add(m);
 		}
 		
